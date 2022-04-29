@@ -14,12 +14,12 @@ body {
 
 .faq {
     display: flex;
+    position: relative;
     justify-content: space-around;
     margin: 7rem auto;
     width: 910px;
     height: 510px;
     border-radius: 20px;
-    overflow: hidden;
     box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.322);
     background-color: $color-white;
     font-family: Kumbh Sans, sans-serif;
@@ -45,8 +45,8 @@ body {
 
 .images__box {
     position: absolute;
-    right: 1290px;
-    top: 315px;
+    right: 815px;
+    top: 205px;
 }
 
 .group {
