@@ -23,7 +23,7 @@ body {
 .faq {
     display: flex;
     position: relative;
-    justify-content: space-around;
+    align-items: center;
     margin: auto;
     width: 910px;
     border-radius: 25px;
@@ -32,8 +32,13 @@ body {
     font-family: Kumbh Sans, sans-serif;
 }
 
+.mural {
+    overflow: hidden;
+}
+
 .images {
     width: 600px;
+    height: 100%;
     position: relative;
     overflow: hidden;
 
@@ -50,14 +55,18 @@ body {
     }
 }
 
-.images__box {
+.extra-images {
+    position: relative;
+
+    &__box {
     position: absolute;
-    right: 815px;
-    top: 205px;
+    right: 812px;
+    top: 203px;
+    }
 }
 
 .group {
-    margin: 70px 90px 90px 0px;
+    margin: 50px 90px 50px 0px;
     width: 450px;
     
     &__question {
@@ -102,6 +111,10 @@ h1 {
 
 .js-question-active {
     font-weight: bolder;
+
+    &:hover {
+        color: black;
+    }
 }
 
 .js-answer-active {
@@ -133,6 +146,8 @@ footer {
         flex-direction: column;
         width: 375px;
         margin-top: 12rem;
+        align-items: center;
+        overflow: visible;
     }
 
     .images {
@@ -143,23 +158,23 @@ footer {
         &__plataform-shadow {
             width: 281px;
             height: 297px;
-            right: -14px;
-            top: -175px;
+            right: 15px;
+            top: -174px;
         }
 
         &__plataform {
             width: 280px;
             height: 230px;
-            right: -15px;
-            top: -138px;
+            right: 15px;
+             top: -138px;
         }
     }
 
-    .images__box {
+    .extra-images__box {
         width: 110px;
         height: 110px;
-        right: 226px;
-        top: -53px;
+        right: 221px;
+        top: -51px;
     }
 
     .group {
