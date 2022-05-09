@@ -81,6 +81,11 @@ body {
     &__question {
         font-size: 14px;
         font-weight: regular;
+    }
+
+    &__js-question {
+        font-size: 14px;
+        font-weight: regular;
 
         &:hover {
             color: $color-softRed;
@@ -118,12 +123,8 @@ h1 {
     }
 }
 
-.js-question-active {
+.js-expand-active {
     font-weight: bolder;
-
-    &:hover {
-        color: black;
-    }
 }
 
 .js-answer-active {

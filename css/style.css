@@ -77,7 +77,11 @@ body {
   font-size: 14px;
   font-weight: regular;
 }
-.group__question:hover {
+.group__js-question {
+  font-size: 14px;
+  font-weight: regular;
+}
+.group__js-question:hover {
   color: #f47c57;
 }
 .group__answer {
@@ -109,11 +113,8 @@ h1 {
   transition: 0.3s;
 }
 
-.js-question-active {
+.js-expand-active {
   font-weight: bolder;
-}
-.js-question-active:hover {
-  color: black;
 }
 
 .js-answer-active {
