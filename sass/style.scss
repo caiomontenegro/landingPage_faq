@@ -23,7 +23,8 @@ body {
 .faq {
     display: flex;
     position: relative;
-    align-items: center;
+    justify-content: space-between;
+    align-items: stretch;
     margin: auto;
     width: 910px;
     border-radius: 25px;
@@ -32,42 +33,50 @@ body {
     font-family: Kumbh Sans, sans-serif;
 }
 
-.mural {
+.main-mural {
+    display: flex;
+    width: 500px;
+    align-items: stretch;
+    height: inherit;
+}
+
+.mural-a {
+    display: flex;
+    align-items: center;
     overflow: hidden;
+    width: inherit;
+    height: inherit;
+}
+
+.mural-b {
+    display: flex;
+    align-items: center;
 }
 
 .images {
-    width: 600px;
-    height: 100%;
     position: relative;
-    overflow: hidden;
 
     &__plataform-shadow {
         position: absolute;
-        right: 80px;
-        top: -295px;
+        right: -388px;
+        top: -538px;
     }
 
     &__plataform {
         position: absolute;
-        right: 80px;
-        top: 70px;
+        right: -388px;
+        top: -192px;
     }
-}
-
-.extra-images {
-    position: relative;
-
     &__box {
-    position: absolute;
-    right: 812px;
-    top: 203px;
+        position: absolute;
+        right: 402px;
+        top: -59px;
     }
 }
 
 .group {
     margin: 50px 90px 50px 0px;
-    width: 450px;
+    width: 600px;
     
     &__question {
         font-size: 14px;
@@ -150,31 +159,40 @@ footer {
         overflow: visible;
     }
 
-    .images {
+    .main-mural {
+        width: inherit;
+    }
+
+    .mural-a {
         overflow: visible;
-        width: 310px;
+    }
+
+    .images {
+        display: flex;
+        align-items: center;
+        overflow: visible;
         height: 100px;
 
         &__plataform-shadow {
             width: 281px;
             height: 297px;
-            right: 15px;
+            right: -324px;
             top: -174px;
         }
 
         &__plataform {
             width: 280px;
             height: 230px;
-            right: 15px;
-             top: -138px;
+            right: -324px;
+            top: -138px;
         }
-    }
 
-    .extra-images__box {
-        width: 110px;
-        height: 110px;
-        right: 221px;
-        top: -51px;
+        &__box {
+            width: 115px;
+            height: 110px;
+            right: 223px;
+            top: -50px;
+        }
     }
 
     .group {
