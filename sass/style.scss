@@ -93,8 +93,8 @@ body {
     }
 
     &__answer {
-        height: 8px;
-        margin-top: 8px;
+        height: 10px;
+        margin: 10px 0px;
         font-size: 14px;
         color: $color-DarkGrayishBlue;
         font-weight: regular;
@@ -110,7 +110,7 @@ h1 {
 }
 
 .doubt {
-    border-bottom: 1px solid $color-line
+    border-bottom: 1px solid $color-line;
 }
 
 .doubt__expand {
@@ -118,8 +118,7 @@ h1 {
     cursor: pointer;
     justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
-    margin-bottom: 15px;
+    margin-top: 25px;
 
     img {
         height: 8px;
@@ -134,7 +133,7 @@ h1 {
 .js-answer-active {
     margin-bottom: 10px;
     font-size: 14px;
-    height: auto;
+    height: 55px;
     font-weight: regular;
     transform: rotateX(0deg);
 }

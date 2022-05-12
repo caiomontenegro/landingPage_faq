@@ -9,13 +9,13 @@ let questions = document.querySelectorAll('.doubts__question')
 
 for (let i = 0; i in expands; i++) {
     expands[i].addEventListener('click', function() {
-        dropAnswer(expands[i], answers[i], arrows[i], questions[i])
+        answerCutout(expands[i], answers[i], arrows[i], questions[i])
     })
 }
 
 // Show de answers 
 
-function dropAnswer(expand, answer, arrow, question) {
+function answerCutout(expand, answer, arrow, question) {
     if (answer.classList.contains('js-answer-active')) {
         expand.classList.remove('js-doubt__expand-active')
         answer.classList.remove('js-answer-active')
