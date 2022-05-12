@@ -69,22 +69,22 @@ body {
   top: -59px;
 }
 
-.group {
+.doubts {
   margin: 50px 90px 50px 0px;
   width: 600px;
 }
-.group__question {
+.doubts__question {
   font-size: 14px;
   font-weight: regular;
 }
-.group__js-question {
+.doubts__js-question {
   font-size: 14px;
   font-weight: regular;
 }
-.group__js-question:hover {
+.doubts__js-question:hover {
   color: #f47c57;
 }
-.group__answer {
+.doubts__answer {
   height: 8px;
   margin-top: 8px;
   font-size: 14px;
@@ -100,20 +100,24 @@ h1 {
   margin-bottom: 50px;
 }
 
-.expand {
+.doubt {
+  border-bottom: 1px solid rgba(120, 120, 135, 0.432);
+}
+
+.doubt__expand {
   display: flex;
   cursor: pointer;
   justify-content: space-between;
   align-items: center;
-  margin-top: 17px;
+  margin-top: 20px;
+  margin-bottom: 15px;
 }
-.expand img {
+.doubt__expand img {
   height: 8px;
-  margin-right: 15px;
   transition: 0.3s;
 }
 
-.js-expand-active {
+.js-doubt__expand-active {
   font-weight: bolder;
 }
 
@@ -127,10 +131,6 @@ h1 {
 
 .js-arrow-active {
   transform: rotate(180deg);
-}
-
-hr {
-  background-color: #e7e7e9;
 }
 
 footer {
@@ -182,7 +182,7 @@ footer {
     top: -50px;
   }
 
-  .group {
+  .doubts {
     width: 310px;
     margin: 50px auto 60px auto;
     justify-content: center;

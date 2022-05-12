@@ -74,7 +74,7 @@ body {
     }
 }
 
-.group {
+.doubts {
     margin: 50px 90px 50px 0px;
     width: 600px;
     
@@ -109,21 +109,25 @@ h1 {
     margin-bottom: 50px;
 }
 
-.expand {
+.doubt {
+    border-bottom: 1px solid $color-line
+}
+
+.doubt__expand {
     display: flex;
     cursor: pointer;
     justify-content: space-between;
     align-items: center;
-    margin-top: 17px;
+    margin-top: 20px;
+    margin-bottom: 15px;
 
     img {
         height: 8px;
-        margin-right: 15px;
         transition: 0.3s;
     }
 }
 
-.js-expand-active {
+.js-doubt__expand-active {
     font-weight: bolder;
 }
 
@@ -137,10 +141,6 @@ h1 {
 
 .js-arrow-active {
     transform: rotate(180deg);
-}
-
-hr {
-    background-color: $color-lightGrayishBlue;
 }
 
 footer {
@@ -196,7 +196,7 @@ footer {
         }
     }
 
-    .group {
+    .doubts {
         width: 310px;
         margin: 50px auto 60px auto; 
         justify-content: center;
