@@ -69,22 +69,22 @@ body {
   top: -59px;
 }
 
-.doubts {
+.faq {
   margin: 50px 90px 50px 0px;
   width: 600px;
 }
-.doubts__question {
+.faq__question {
   font-size: 14px;
   font-weight: regular;
 }
-.doubts__js-question {
+.faq__js-question {
   font-size: 14px;
   font-weight: regular;
 }
-.doubts__js-question:hover {
+.faq__js-question:hover {
   color: #f47c57;
 }
-.doubts__answer {
+.faq__answer {
   height: 10px;
   margin: 10px 0px;
   font-size: 14px;
@@ -181,7 +181,7 @@ footer {
     top: -50px;
   }
 
-  .doubts {
+  .faq {
     width: 310px;
     margin: 50px auto 60px auto;
     justify-content: center;
