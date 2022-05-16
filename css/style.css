@@ -73,18 +73,20 @@ body {
   margin: 50px 90px 50px 0px;
   width: 600px;
 }
-.faq__question {
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+.faq-questions {
+  border-bottom: 1px solid rgba(120, 120, 135, 0.432);
+}
+.faq-questions__statement {
   font-size: 14px;
   font-weight: regular;
 }
-.faq__js-question {
-  font-size: 14px;
-  font-weight: regular;
-}
-.faq__js-question:hover {
-  color: #f47c57;
-}
-.faq__answer {
+.faq-questions__answer {
   height: 10px;
   margin: 10px 0px;
   font-size: 14px;
@@ -95,13 +97,12 @@ body {
   transform-origin: top center;
 }
 
-h1 {
-  font-size: 50px;
-  margin-bottom: 50px;
+.js-faq-questions__statement {
+  font-size: 14px;
+  font-weight: regular;
 }
-
-.faq-questions {
-  border-bottom: 1px solid rgba(120, 120, 135, 0.432);
+.js-faq-questions__statement:hover {
+  color: #f47c57;
 }
 
 .faq-questions__expand {

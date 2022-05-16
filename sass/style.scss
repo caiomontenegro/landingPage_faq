@@ -77,19 +77,19 @@ body {
 .faq {
     margin: 50px 90px 50px 0px;
     width: 600px;
-    
-    &__question {
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.faq-questions {
+    border-bottom: 1px solid $color-line;
+
+    &__statement {
         font-size: 14px;
         font-weight: regular;
-    }
-
-    &__js-question {
-        font-size: 14px;
-        font-weight: regular;
-
-        &:hover {
-            color: $color-softRed;
-        }
     }
 
     &__answer {
@@ -104,13 +104,13 @@ body {
     }
 }
 
-h1 {
-    font-size: 50px;
-    margin-bottom: 50px;
-}
+.js-faq-questions__statement {
+    font-size: 14px;
+    font-weight: regular;
 
-.faq-questions {
-    border-bottom: 1px solid $color-line;
+    &:hover {
+        color: $color-softRed;
+    }
 }
 
 .faq-questions__expand {
