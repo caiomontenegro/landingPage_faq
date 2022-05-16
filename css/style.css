@@ -17,7 +17,7 @@ body {
   background-repeat: no-repeat;
 }
 
-.faq {
+.painting {
   display: flex;
   position: relative;
   justify-content: space-between;
@@ -140,7 +140,7 @@ footer {
 }
 
 @media (max-width: 1006px) {
-  .faq {
+  .painting {
     flex-direction: column;
     width: 375px;
     margin-top: 12rem;
