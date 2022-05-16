@@ -74,7 +74,7 @@ body {
     }
 }
 
-.faq {
+.doubts {
     margin: 50px 90px 50px 0px;
     width: 600px;
     
@@ -109,11 +109,11 @@ h1 {
     margin-bottom: 50px;
 }
 
-.question {
+.doubt {
     border-bottom: 1px solid $color-line;
 }
 
-.question__expand {
+.doubt__expand {
     display: flex;
     cursor: pointer;
     justify-content: space-between;
@@ -126,7 +126,7 @@ h1 {
     }
 }
 
-.js-question__expand-active {
+.js-doubt__expand-active {
     font-weight: bolder;
 }
 
@@ -195,7 +195,7 @@ footer {
         }
     }
 
-    .faq {
+    .doubts {
         width: 310px;
         margin: 50px auto 60px auto; 
         justify-content: center;

@@ -69,22 +69,22 @@ body {
   top: -59px;
 }
 
-.faq {
+.doubts {
   margin: 50px 90px 50px 0px;
   width: 600px;
 }
-.faq__question {
+.doubts__question {
   font-size: 14px;
   font-weight: regular;
 }
-.faq__js-question {
+.doubts__js-question {
   font-size: 14px;
   font-weight: regular;
 }
-.faq__js-question:hover {
+.doubts__js-question:hover {
   color: #f47c57;
 }
-.faq__answer {
+.doubts__answer {
   height: 10px;
   margin: 10px 0px;
   font-size: 14px;
@@ -100,23 +100,23 @@ h1 {
   margin-bottom: 50px;
 }
 
-.question {
+.doubt {
   border-bottom: 1px solid rgba(120, 120, 135, 0.432);
 }
 
-.question__expand {
+.doubt__expand {
   display: flex;
   cursor: pointer;
   justify-content: space-between;
   align-items: center;
   margin-top: 25px;
 }
-.question__expand img {
+.doubt__expand img {
   height: 8px;
   transition: 0.3s;
 }
 
-.js-question__expand-active {
+.js-doubt__expand-active {
   font-weight: bolder;
 }
 
@@ -181,7 +181,7 @@ footer {
     top: -50px;
   }
 
-  .faq {
+  .doubts {
     width: 310px;
     margin: 50px auto 60px auto;
     justify-content: center;
