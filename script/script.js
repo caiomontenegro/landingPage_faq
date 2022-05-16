@@ -1,9 +1,9 @@
 // Elements
 
-let expands = document.querySelectorAll('.js-doubt__expand')
-let answers = document.querySelectorAll('.js-faq-question__answer')
-let arrows = document.querySelectorAll('.js-faq-question__arrow')
-let questions = document.querySelectorAll('.faq-question__question')
+let expands = document.querySelectorAll('.js-faq-questions__expand')
+let answers = document.querySelectorAll('.js-faq__answer')
+let arrows = document.querySelectorAll('.js-faq__arrow')
+let questions = document.querySelectorAll('.faq__question')
 
 // Event Listener
 
@@ -17,14 +17,14 @@ for (let i = 0; i in expands; i++) {
 
 function answerCutout(expand, answer, arrow, question) {
     if (answer.classList.contains('js-answer-active')) {
-        expand.classList.remove('js-doubt__expand-active')
+        expand.classList.remove('js-faq-questions__expand-active')
         answer.classList.remove('js-answer-active')
         arrow.classList.remove('js-arrow-active')
-        question.classList.add('faq-question__js-question')
+        question.classList.add('faq__js-question')
     } else {
-        expand.classList.add('js-doubt__expand-active')
+        expand.classList.add('js-faq-questions__expand-active')
         answer.classList.add('js-answer-active')
         arrow.classList.add('js-arrow-active')
-        question.classList.remove('faq-question__js-question')
+        question.classList.remove('faq__js-question')
     }
 }
