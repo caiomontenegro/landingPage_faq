@@ -100,23 +100,23 @@ h1 {
   margin-bottom: 50px;
 }
 
-.doubt {
+.question {
   border-bottom: 1px solid rgba(120, 120, 135, 0.432);
 }
 
-.doubt__expand {
+.question__expand {
   display: flex;
   cursor: pointer;
   justify-content: space-between;
   align-items: center;
   margin-top: 25px;
 }
-.doubt__expand img {
+.question__expand img {
   height: 8px;
   transition: 0.3s;
 }
 
-.js-doubt__expand-active {
+.js-question__expand-active {
   font-weight: bolder;
 }
 

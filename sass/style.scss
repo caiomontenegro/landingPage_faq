@@ -109,11 +109,11 @@ h1 {
     margin-bottom: 50px;
 }
 
-.doubt {
+.question {
     border-bottom: 1px solid $color-line;
 }
 
-.doubt__expand {
+.question__expand {
     display: flex;
     cursor: pointer;
     justify-content: space-between;
@@ -126,7 +126,7 @@ h1 {
     }
 }
 
-.js-doubt__expand-active {
+.js-question__expand-active {
     font-weight: bolder;
 }
 
