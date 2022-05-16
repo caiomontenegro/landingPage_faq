@@ -105,19 +105,19 @@ h1 {
   color: #f47c57;
 }
 
-.faq-questions__expand {
+.faq-questions__accordion {
   display: flex;
   cursor: pointer;
   justify-content: space-between;
   align-items: center;
   margin-top: 25px;
 }
-.faq-questions__expand img {
+.faq-questions__accordion img {
   height: 8px;
   transition: 0.3s;
 }
 
-.js-faq-questions__expand-active {
+.js-faq-questions__accordion-active {
   font-weight: bolder;
 }
 

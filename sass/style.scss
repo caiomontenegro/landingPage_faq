@@ -113,7 +113,7 @@ h1 {
     }
 }
 
-.faq-questions__expand {
+.faq-questions__accordion {
     display: flex;
     cursor: pointer;
     justify-content: space-between;
@@ -126,7 +126,7 @@ h1 {
     }
 }
 
-.js-faq-questions__expand-active {
+.js-faq-questions__accordion-active {
     font-weight: bolder;
 }
 
